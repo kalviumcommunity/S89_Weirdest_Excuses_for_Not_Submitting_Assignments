@@ -13,5 +13,5 @@ app.listen(port, (err) => {
     console.error('Failed to start server:', err);
     process.exit(1);
   }
-  console.log(Server is running on http://localhost:${port});
+  console.log(`Server is running on http://localhost:${port}`);
 });
